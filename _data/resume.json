@@ -1,0 +1,164 @@
+{
+  "basics": {
+    "name": "Ahmet Cecen",
+    "label": "Research Data Scientist",
+    "picture": "https://avatars1.githubusercontent.com/u/7231251?v=3&s=460",
+    "email": "ahmetcecen@gmail.com",
+    "phone": "(267) 586-4505",
+    "website": "http://ahmetcecen.github.io/",
+    "summary": "I have been doing research and heavily programming in the fields of computational materials science and materials informatics for the past 11 years. My current research focus is on leveraging statistical analysis and machine learning tools to solve big data analytics problems in materials science. My specific focus is on the extraction of meaningful structural information from scientific images obtain through micorscopy, tomography and spectroscopy techniques.",
+    "location": {
+      "address": "ExxonMobil Chemical",
+      "postalCode": "TX 77007",
+      "city": "Baytown",
+      "countryCode": "US",
+      "region": "Texas"
+    },
+    "profiles": [{
+      "network": "LinkedIn",
+      "username": "Ahmet Cecen",
+      "url": "https://www.linkedin.com/in/ahmet-cecen-1693b419"
+    }]
+  },
+  "work": [{
+    "company": "ExxonMobil",
+    "position": "Advanced Research Data Scientist",
+    "website": "https://corporate.exxonmobil.com/",
+    "startDate": "09/2017",
+    "endDate": "Present",
+    "summary": "Data Scientist role working on Basic Chemicals and Polymers related problems.",
+    "highlights": [
+      "Redacted"
+    ]
+  },{
+    "company": "Georgia Tech - MINED Group",
+    "position": "Graduate Research Assistant",
+    "website": "https://matin.gatech.edu/",
+    "startDate": "03/2010",
+    "endDate": "08/2017",
+    "summary": "Primary research role towards a PhD degree, under the advisement of Dr. Surya R. Kalidindi",
+    "highlights": [
+    "Develop and implement process-structure-property relation schemes using image/signal processing tools, statistical analysis and machine learning paradigms.", 
+	  "Design, implement and publish efficient algorithms for image processing, statistical analysis and visualization of 2D/3D microstructure data.",
+	  "Design, adapt or opinionate online tools to facilitate the automation, accesibilty and exposure of research data and findings."
+    ]
+  },
+  {
+    "company": "Drexel University - ECSL Group",
+    "position": "Undergraduate Research Assistant",
+    "website": "http://mem.drexel.edu/energy/ECSL_Home.html",
+    "startDate": "03/2010",
+    "endDate": "08/2013",
+    "summary": "Primary research role as an undergraduate research assistant, under the advisement of Dr. Emin C. Kumbur",
+    "highlights": [
+      "Develop and implement physical models to capture desired structural parameters and effective properties from measured microstructure samples of PEFCs."
+    ]
+  }],
+  "education": [{
+    "institution": "Georgia Institute of Technology",
+    "area": "Computational Science and Engineering",
+    "studyType": "Doctorate",
+    "startDate": "08/2013",
+    "endDate": "08/2017",
+	  "thesis": "Calculation, Utilization, and Inference of Spatial Statistics in Practical Spatio-Temporal Data"
+  },
+  {
+    "institution": "Drexel University",
+    "area": "Mechanical Engineering and Mechanics",
+    "studyType": "Bachelors",
+    "startDate": "09/2009",
+    "endDate": "08/2013",
+	  "thesis": "Automated Electrochemical Flow Capacitor Test Station"
+  }],
+  "awards": [{
+    "title": "Materials Science and Engineering Data Challenge - Runner Up",
+    "date": "05/2016",
+    "awarder": "Air Force Research Lab in partnership with NIST and NSF",
+    "summary": "Awarded for novel use of accessible digital data to advance Materials Science and Engineering knowledge to accelerate the transition to industrial applications."
+  }],
+  "skills": [{
+    "name": "Mach. Learn. & Data Anlys.",
+    "keywords": [
+      "MATLAB",
+      "R",
+      "scikit"
+    ],
+	"level": [
+      "100",
+      "80",
+      "60"
+    ]
+  },
+  {
+    "name": "Web Development",
+    "keywords": [
+      "JS",
+      "Jekyll",
+      "Python"
+    ],
+	"level": [
+      "80",
+      "100",
+      "40"
+    ]
+  },
+  {
+    "name": "Deployment & Automation",
+    "keywords": [
+      "Batch",
+      "Docker",
+      "Azure"
+    ],
+	"level": [
+      "80",
+      "60",
+      "60"
+    ]
+  },  
+  {
+    "name": "Database Systems",
+    "keywords": [
+      "SQL",
+      "Mongo",
+      "HDF5"
+    ],
+	"level": [
+      "75",
+      "75",
+      "75"
+    ]
+  }
+  ],
+  "languages": [{
+    "name": "English",
+    "level": "Active | Fluent"
+  },
+  {
+    "name": "Turkish",
+    "level": "Active | Fluent"
+  },
+  {
+    "name": "French",
+    "level": "Passive | Intermediate"
+  },
+  {
+    "name": "Japanese",
+    "level": "Passive | Beginner"
+  }],
+  "interests": [{
+    "name": "Electronics",
+    "keywords": [
+    "Hardware Prototyping",
+	  "Gadgetry",
+	  "Control Systems"
+    ]
+},
+{
+    "name": "3D Visualization",
+    "keywords": [
+    "Paraview",
+    "Blender",
+	  "ThreeJs"
+    ]
+}]
+}

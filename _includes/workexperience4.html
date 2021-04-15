@@ -1,0 +1,25 @@
+<!-- WORK EXPERIENCE -->
+<div class="box">
+<h2><i class= "fa fa-suitcase ico"></i> Work Experience</h2>
+<ul id="education" class="clearfix">
+{% assign count = 0 %}
+{% for workjob in site.data.resume2.work limit:2 %}
+  <li onclick="return toggleMe('job{{ count }}')">
+	<div class="description">
+		
+		<h3> <a href="{{workjob.website}}">{{workjob.company}}</a></h3>
+		<div class="profession" style="font-size:1.1em;margin-top: 2px;"><i>{{workjob.position}}</i></div>
+		<p style = "margin-top: 2px; margin-left:1px; margin-bottom:2px;">{{workjob.startDate}} - {{workjob.endDate}}</p>		
+		
+		<ul class="list-group">
+		{% for highlight in workjob.highlights %}
+		<li class="list-group-item" style="padding-top: 2px;">{{ highlight }}</li>
+		{% endfor %}
+		</ul>
+		
+	</div>
+  </li>
+{% assign count = count | plus:1 %}
+{% endfor %}
+</ul>
+</div>

@@ -1,0 +1,64 @@
+<div class="row">
+<div class="col-xs-4">
+  <div id="photo-header" style="text-align: center; margin-top: 0px;">
+	<!-- PHOTO (AVATAR) -->
+	<div id="text-header">
+	  <h1 style="font-size:2.4em;margin-top: 10px;">{{site.data.resume.basics.name}}</h1>
+	  
+	  <h1 style="font-size:1.78em"> <span >{{site.data.resume.basics.label}}</span></h1>
+	</div>
+	
+	<div style="left: 50px; position: relative;">
+	
+		<p style="border: 1px solid #a71111; font-size: 2em; float:left; padding:0px 3px 0px 3px; margin: 8px 5px 5px 5px; color: #a71111 !important;"><b style="color: #a71111 !important;">PhD</b></p>
+		
+		<p style="border: 1px solid #a71111; font-size: 2em; float:left; padding:0px 3px 0px 3px; margin: 8px 5px 5px 5px; color: #a71111 !important;"><b style="color: #a71111 !important;">H1B</b></p>
+
+	</div>
+
+  </div>
+</div>
+
+<div class="col-xs-8" >
+
+	<div class="box clearfix" style="margin-bottom:0;padding:0">
+
+	<div class="contact-item" style="margin-top:10px">
+	  <div class="icon pull-left text-center"><span class="fa fa-map-marker fa-fw"></span></div>
+	  <div class="title ">{{site.data.resume.basics.location.address}}</div>
+	  <div class="title ">{{site.data.resume.basics.location.city}}, {{site.data.resume.basics.location.region}} {{site.data.resume.basics.location.postalCode}} {{site.data.resume.basics.location.countryCode}}</div>
+	</div>
+
+	<div class="contact-item" style="position:relative; top:5px; width:200px; height:70px;">
+	  <div class="icon pull-left text-center" style="padding-top:0px;"><span class="fa fa-phone fa-fw"></span></div>
+	  <div class="title only" style="margin-top:2px; height:25px; ">{{site.data.resume.basics.phone}}</div>	
+	  <div class="icon pull-left text-center" style="position:relative;top:-12px;"><span class="fa fa-envelope fa-fw"></span></div>
+	  <div class="title only" style="margin-top:7px; height:25px; position:relative;top:-12px;"><a href="mailto:{{site.data.resume.basics.email}}" target="_blank">{{site.data.resume.basics.email}}</a></div>
+	  <div class="icon pull-left text-center" style="position:relative;top:-24px;"><span class="fa fa-globe fa-fw"></span></div>
+	  <div class="title only" style="margin-top:7px; height:25px; position:relative;top:-24px;"><a href="{{site.data.resume.basics.website}}" target="_blank">{{site.data.resume.basics.website}}</a></div>
+	</div>
+	
+	<div class="contact-item" style="width:60px; float:right">
+		<img src="/images/qr.jpg" style="width:69px">
+	</div>
+	<!--
+	{% for profile in site.data.resume.basics.profiles %}
+	<div class="contact-item">
+	  <div class="icon pull-left text-center"><span class="fa fa-linkedin fa-fw"></span></div>
+	  <div class="description pull-right"><b>{{profile.network}}:</b> <a href="{{profile.url}}" target="_blank">{{profile.username}}</a></div>
+	</div>
+	{% endfor %}
+	-->
+	</div>
+
+</div>
+
+
+<div class="col-xs-8" >
+  <div class="box" style="margin-bottom:0;padding:0">
+	<p> I have been doing research and heavily programming in the field of materials informatics for the past 11 years. My current research focus is on leveraging statistical analysis and machine learning tools to solve big data analytics problems in materials science.</p>
+  </div>
+</div>
+
+
+</div>

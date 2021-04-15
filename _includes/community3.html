@@ -1,0 +1,152 @@
+<div class="box">
+<h2><i class="fa fa-book ico"></i> Community Impact </h2>
+
+
+<div class="item-skills" style="margin-top:0px">Google Scholar Citations</div>
+
+<style type="text/css">
+
+.tg{margin: 0 auto; font-size: 12px;}
+.tg .tg-lqy6{text-align:right;vertical-align:top;}
+.tg .tg-9hbo{font-weight:bold;vertical-align:top;padding-right:50px;}
+
+
+</style>
+<table class="tg" >
+  <tr>
+    <td class="tg-9hbo">Citations</th>
+    <td class="tg-lqy6">901</th>
+  </tr>
+  <tr>
+    <td class="tg-9hbo">h-index</td>
+    <td class="tg-lqy6">14</td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo">i10-index</td>
+    <td class="tg-lqy6">14</td>
+  </tr>
+</table>
+
+<div class="item-skills" style="margin-top:0px"> MATLAB Central </div>
+  
+<div class="chart_ans_target" style = "float:left; margin-right:2px;"><svg viewBox="0 0 144 80" width="99" height="57"  style="border-radius: 5px; background: rgb(234, 165, 0) !important;"><g><text font-size="12px" font-family="Arial" x="15" y="25" fill="black">ANSWERS</text></g><g><text id="ans_rank" font-size="30px" font-family="Arial" x="15" y="57" fill="black">151</text></g><g><text font-family="Arial" font-size="12px" x="70.046875" y="45" fill="black">RANK</text></g><g><text><tspan font-size="12px" x="70.046875" y="60" fill="black">of<tspan font-size="12px" x="85.046875" y="60" fill="black">232,013</tspan></tspan></text></g></svg></div>
+
+<div class="chart_fx_target" ><svg viewBox="0 0 144 80" width="119" height="57" style="border-radius: 5px; background: rgb(234, 165, 0) !important;"><g><text font-size="12px" font-family="Arial" x="10" y="25" fill="black">FILE EXCHANGE</text></g><g><text id="fx_rank" font-size="30px" font-family="Arial" x="10" y="57" fill="black">8693</text></g><g><text font-family="Arial" font-size="12px" x="80.046875" y="45" fill="black">All-Time</text></g><g><text><tspan font-size="12px" x="80.046875" y="60" fill="black">Downloads</svg></div>
+
+
+<div class="item-skills" style="margin-top:0px"> GitHub Language Usage </div>
+
+<div id="pieChart"  style="text-align:center;margin-top: -10px;position:relative;"></div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
+<script src="/js/d3pie.min.js"></script>
+<script>
+var pie = new d3pie("pieChart", {
+	"header": {
+		"title": {
+			"text": "Commits",
+			"fontSize": 16,
+			"font": "open sans"
+		},
+		"subtitle": {
+			"color": "#000000",
+			"fontSize": 12,
+			"font": "open sans"
+		},
+		"location": "pie-center",
+		"titleSubtitlePadding": 9
+	},
+	"footer": {
+		"color": "#999999",
+		"fontSize": 10,
+		"font": "open sans",
+		"location": "bottom-left"
+	},
+	"size": {
+		"canvasWidth": 230,
+		"canvasHeight": 230,
+		"pieInnerRadius": "55%",
+		"pieOuterRadius": "80%"
+	},
+	"data": {
+		"sortOrder": "value-desc",
+		"content": [
+			{
+				"label": "HTML",
+				"value": 376301,
+				"color": "#6162ca"
+			},
+			{
+				"label": "CSS",
+				"value": 663447,
+				"color": "#f64fff"
+			},
+			{
+				"label": "JS",
+				"value": 1002923,
+				"color": "#ff5b5b"
+			},
+			{
+				"label": "Matlab",
+				"value": 573947,
+				"color": "#ff8d31"
+			},
+			{
+				"label": "Py",
+				"value": 501801,
+				"color": "#3cd2c4"
+			},
+			{
+				"label": "C++",
+				"value": 141598,
+				"color": "#60d70e"
+			}
+		]
+	},
+	"labels": {
+		"outer": {
+			"pieDistance": 20
+		},
+		"inner": {
+			"hideWhenLessThanPercentage": 3
+		},
+		"mainLabel": {
+			"fontSize": 14
+		},
+		"percentage": {
+			"color": "#ffffff",
+			"fontSize": 12,
+			"decimalPlaces": 0
+		},
+		"value": {
+			"color": "#adadad",
+			"fontSize": 11
+		},
+		"lines": {
+			"enabled": true
+		},
+		"truncation": {
+			"enabled": true
+		}
+	},
+	"effects": {
+		"load": {
+			"effect": "none"
+		},
+		"pullOutSegmentOnClick": {
+			"effect": "linear",
+			"speed": 400,
+			"size": 8
+		}
+	},
+	"misc": {
+		"gradient": {
+			"enabled": true,
+			"percentage": 100
+		}
+	}
+});
+</script>
+
+
+</div>

@@ -1,0 +1,19 @@
+<!-- PUBLICATIONS -->
+<div class="box">
+<h2><i class="fa fa-book ico"></i> Conference Abstracts & Presentations </h2>
+{% assign count = 0 %}
+{% for article in site.data.conference %}
+<div class="publication panel panel-default">
+  <div class="panel-heading" onclick="return toggleMe('conf{{ count }}')">
+	<div class="name panel-title">{{count | plus:1}}. {{article.Title}}</div> 
+  </div>
+  <div id="conf{{ count }}" class="" style="padding-left:15px;padding-right:15px;padding-bottom:15px;display: none;">
+  
+    <div><p>{{article.Authors}}</p></div>
+	<div class="publisher"><b>{{article.Publication}}</b> - {{article.Year}}</div>
+	
+  </div>
+</div>
+{% assign count = count | plus:1 %}
+{% endfor %}
+</div>

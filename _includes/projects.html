@@ -1,0 +1,35 @@
+<!--MATIN, Adjusted Repo Elements to Look Like MDL Cards-->   
+
+<div class="box print-hidden">
+
+<h2><i class="fa fa-book ico"></i> Projects </h2>
+
+{% for project in site.data.projects %}
+
+<div class="" style="float:left;width:140px; height:200px; margin:10px ; box-shadow: 2px 2px 0.5px 0.5px #000000;">
+
+<div class="" style="width:140px; height:60px;  background: #a71111;">
+<h3 style="position: relative;top: 50%;color:#FFFFFF;font-size: 1.2em; margin: 0 auto; padding: 5px; font-weight: 700;text-align: center; width:100%;-webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);">{{ project.title }}</h3>
+</div>
+
+<div class="" style="width:140px; height:140px;background: #d0d0d0 url('{{ project.logo }}');background-size: 140px">
+
+</div>
+
+<div class="" style="width:140px; height:30px; top:-30px;background: #000000; z-index:3; position: relative; opacity: 0.5;">
+</div>
+
+<div class="" style="width:140px; height:30px; top:-60px; z-index:5; position: relative;">
+{% if project.backurl %}
+<a href="{{ project.backurl }}" target="_blank"><i class="material-icons" style="color:#FFFFFF; z-index:5;padding:5px;font-size: 20px;">build</i></a>
+{% endif %}
+{% if project.fronturl %}
+<a href="{{ project.fronturl }}" target="_blank"><i class="material-icons" style="float:right;color:#FFFFFF; z-index:5;padding:5px;font-size: 20px;">public</i></a>
+{% endif %}
+</div>
+
+
+</div>
+
+{% endfor %}
+</div>

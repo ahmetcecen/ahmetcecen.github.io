@@ -1,0 +1,28 @@
+<!--MATIN, Adjusted Repo Elements to Look Like MDL Cards-->   
+
+<div class="box">
+
+<h2 style="padding-bottom: 6px"><i class="fa fa-book ico"></i> Projects </h2>
+
+{% for project in site.data.projects limit:4 %}
+
+<div class="" style="float:left;width:98%; max-height:146px; margin: 5px 0px 5px 0px ; box-shadow: 2px 2px 0.5px 0.5px #000000; border: 1px solid #eee;">
+
+<div class="" style="float:left; margin: 5px; width:70px; height:70px;background: #d0d0d0 url('{{ project.logo }}') !important;background-size: 70px !important">
+</div>
+
+<div class="" style="margin-left:5px; margin-right:5px; height:auto;  background: #a71111;">
+
+<h3 style="color:#FFFFFF;font-size: 1.1em; margin: 0 auto; padding:5px; font-weight: 700; width:100%;">{{ project.title }}</h3>
+</div>
+
+<p style="margin-left:5px; margin-right:3px; margin-bottom:3px;">
+
+{{ project.desc }}
+
+</p>
+
+</div>
+
+{% endfor %}
+</div>

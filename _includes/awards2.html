@@ -1,0 +1,18 @@
+<!-- AWARDS -->
+<div class="box" style="margin-top:-28px">
+<h2><i class="fa fa-certificate ico"></i> Awards</h2>
+<ul id="education" class="clearfix">
+{% assign count = 0 %}
+{% for award in site.data.resume2.awards %}
+  <li onclick="return toggleMe('award{{ count }}')">
+	<div class="description pull-right">
+	  <h3 style = "margin-top: 2px; margin-left:1px; margin-bottom:3px;">{{award.awarder}}</h3>
+	  <p style = "margin-top: 2px; margin-left:1px; margin-bottom:3px;"> <i class="fa fa-trophy ico"></i> {{award.title}}<span class="pull-right">{{award.date}}</span></p>
+	  <p style = "margin-top: 2px; margin-left:1px; margin-bottom:3px;"></p>	
+	  <p id="award{{ count }}" style="display: none;"><i style="color: #a71111 !important;"> {{award.summary}}</i></p>
+	</div>
+  </li>
+{% assign count = count | plus:1 %}
+{% endfor %}
+</ul>
+</div>

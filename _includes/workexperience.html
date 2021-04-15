@@ -1,0 +1,33 @@
+<!-- WORK EXPERIENCE -->
+<div class="box">
+<h2><i class= "fa fa-suitcase ico"></i> Work Experience</h2>
+{% assign count = 0 %}
+{% for workjob in site.data.resume.work %}
+  <div class="job clearfix">
+	<div class="row">
+	  <div class="details" onclick="return toggleMe('rjob{{ count }}')">
+		<div class="where">{{workjob.company}}</div>
+		<div class="profession">{{workjob.position}}</div> 
+		<div class="address">
+		  <a href="{{workjob.website}}" target= "_blank"><i class="fa fa-globe ico"></i> {{workjob.website}}</a>
+		</div>
+		<div class="year">{{workjob.startDate}} – {{workjob.endDate}}</div>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="job-details col-xs-11" id="rjob{{ count }}" style="display: none;">
+		<div class="description">
+		  {{workjob.summary}}
+		  <div class="highlights">Highlights</div>
+		  <ul class="list-group">
+			{% for highlight in workjob.highlights %}
+			<li class="list-group-item">{{ highlight }}</li>
+			{% endfor %}
+		  </ul>
+		</div>
+	  </div>
+	</div>
+  </div>
+{% assign count = count | plus:1 %}
+{% endfor %}
+</div>

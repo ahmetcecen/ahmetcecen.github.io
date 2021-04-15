@@ -1,0 +1,18 @@
+<!-- AWARDS -->
+<div class="box">
+<h2><i class="fa fa-certificate ico"></i> Awards</h2>
+<ul id="education" class="clearfix">
+{% assign count = 0 %}
+{% for award in site.data.resume.awards %}
+  <li onclick="return toggleMe('award{{ count }}')">
+	<div class="year pull-left">{{award.date}}</div>
+	<div class="description pull-right">
+	  <h3>{{award.awarder}}</h3>
+	  <p><i class="fa fa-trophy ico"></i> {{award.title}}</p>
+	  <p id="award{{ count }}" style="display: none;">{{award.summary}}</p>
+	</div>
+  </li>
+{% assign count = count | plus:1 %}
+{% endfor %}
+</ul>
+</div>

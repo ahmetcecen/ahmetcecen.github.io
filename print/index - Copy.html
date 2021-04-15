@@ -1,0 +1,128 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Overview of {{site.data.resume.basics.name}}</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="/css/main.css">
+	
+	<script type="text/javascript">
+		function toggleMe(a){
+		var e=document.getElementById(a);
+		if(!e)return true;
+		if(e.style.display=="none"){
+		e.style.display="block"
+		}
+		else{
+		e.style.display="none"
+		}
+		return true;
+		}
+		
+		function toggleMeClass(a){
+		var e=document.getElementsByClassName(a);
+		if(!e)return true;
+		for (i = 0; i < e.length; i++) {
+			if(e[i].style.display=="none"){
+			e[i].style.display="block"
+			}
+			else{
+			e[i].style.display="none"
+			}
+		}
+		return true;
+		}
+	</script>
+	
+	    <!-- JQUERY -->
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- BOOTSTRAP -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	
+	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	   
+  </head>
+  <body onload="window.print()">
+    
+	<div class="container" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+	  
+	  {% include header2.html %}
+	  
+	  <hr style="height: 1px; margin-bottom:10px; margin-top:0px ; border-color: #000000">
+	  
+      <div class="row">
+       
+		<div class="col-xs-6"  style="margin-bottom:-20px;" >
+		
+		  {% include skills2.html %}
+
+          	  
+		</div>
+		
+		
+	</div>
+	
+	<hr style="height: 1px; margin-bottom:10px; margin-top:5px ; border-color: #000000">
+	
+	<div class="row">
+       
+		<div class="col-xs-12 col-sm-7">
+
+		  {% include workexperience3.html %}
+		  	  
+		</div>
+		
+		<div class="col-xs-12 col-sm-5">
+		
+		  {% include projects2.html %}
+		  
+
+		 
+		</div>
+		
+		
+	</div>
+	
+	<hr style="border: 0; height: 1px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc); page-break-after: always;">
+	
+	<br>
+
+	
+	<div class="row">
+       
+		<div class="col-xs-12 col-sm-7">
+
+		  {% include education.html %}
+		  
+		  {% include awards.html %}
+		  
+		  {% include publications2.html %}
+		  	  
+		</div>
+		
+		<div class="col-xs-12 col-sm-5">
+		
+		  {% include interests2.html %}
+		  
+		  {% include languages2.html %}
+		  
+		  {% include community2.html %}
+		
+
+		 
+		</div>
+		
+		
+	</div>
+		
+  </body>
+</html>

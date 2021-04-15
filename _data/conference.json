@@ -1,0 +1,212 @@
+[
+  {
+    "Authors": "Ahmet Cecen, Surya R Kalidindi",
+    "Title": "A Generalized Statistical Microstructure Generation Framework",
+    "Publication": "2019 TMS Annual Meeting & Exhibition",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2019,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Yuksel Yabansu, Ahmet Cecen, Surya Kalidindi",
+    "Title": "Formulation and calculation of rotationally invariant spatial correlations for microstructure datasets",
+    "Publication": "2019 TMS Annual Meeting & Exhibition",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2019,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Yue Sun, Ahmet Cecen, Surya Kalidindi, Peter Voorhees",
+    "Title": "Analytics on Large Microstructure Datasets Using Two Point Statistics: Application to Coarsening Dendritic Solid-Liquid Mixtures",
+    "Publication": "2017 TMS Annual Meeting & Exhibition",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2017,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Eva Popova, Theron Rodgers, Xinyi Gong, Ahmet Cecen, Jonathan Madison, Surya Kalidindi",
+    "Title": "Extraction of Process-Structure Linkages from Simulated Additive Manufacturing Microstructures Using a Data Science Approach",
+    "Publication": "Materials Science & Technology",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2016,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Ahmet Cecen, John Gibbs, Yue Sun, Peter Voorhees, Surya Kalidindi",
+    "Title": "Analytics on Large Microstructure Datasets Using 2-pt Statistics: Application to Al-Cu Solidification Process",
+    "Publication": "145th TMS Annual Meeting & Exhibition, Nashville, TN",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2016,
+    "Publisher": ""
+  },
+  {
+    "Authors": "A. Cecen, D. Yan, C. Tasan, D. Raabe, SR Kalidindi",
+    "Title": "Data Science Enabled Fusion of Microstructure Images with Strain Fields Measured by DIC",
+    "Publication": "Materials Science & Technology 2015, Columbus, OH",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2015,
+    "Publisher": ""
+  },
+  {
+    "Authors": "D. Brough, A. Cecen, SR Kalidindi",
+    "Title": "Introduction to Materials Informatics with Open Source Tools",
+    "Publication": "Materials Science & Technology 2015, Columbus, OH",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2015,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Ahmet Cecen, Surya Kalidindi",
+    "Title": "Microstructure Informatics for Mining Structure-Property-Processing Linkages from Large Datasets",
+    "Publication": "144th TMS Annual Meeting & Exhibition, Orlando, FL",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2015,
+    "Publisher": ""
+  },
+  {
+    "Authors": "PD Deshpande, BP Gautham, A Cecen, S Kalidindi, A Agrawal, A Choudhary",
+    "Title": "Application of Statistical and Machine Learning Techniques for Correlating Properties to Composition and Manufacturing Processes of Steels",
+    "Publication": "2 World Congress on Integrated Computational Materials Engineering",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2013,
+    "Publisher": ""
+  },
+  {
+    "Authors": "A Gupta, A Cecen, S Goyal, AK Singh, SR Kalidindi",
+    "Title": "Multiscale Model for Non-Metallic Inclusions/Steel Composite System Using Data Science Enabled Structure-Property Linkages",
+    "Publication": "2 World Congress on Integrated Computational Materials Engineering",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2013,
+    "Publisher": ""
+  },
+  {
+    "Authors": "EA Wargo, VP Schulz, A Cecen, SR Kalidindi, EC Kumbur",
+    "Title": "Microstructure-driven analysis of two-phase transport in diffusion media of PEFCs”",
+    "Publication": "ECS Transactions",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2013,
+    "Publisher": ""
+  },
+  {
+    "Authors": "EA Wargo, VP Schulz, A Cecen, SR Kalidindi, EC Kumbur",
+    "Title": "Advanced microstructural analysis tools to quantify two-phase transport in gas diffusion layers of polymer electrolyte fuel cells",
+    "Publication": "244th American Chemical Society Annual Meeting",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2012,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Wargo, E. A., Schulz, V., Cecen, A., Kalidindi, S. R., and Kumbur, E. C.",
+    "Title": "Characterization of two-phase flow properties of dual-layer PEFC gas diffusion electrodes via microstructure analysis and pore-scale modeling",
+    "Publication": "ASME 10th International Fuel Cell Science, Engineering & Technology Conference",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2012,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Wargo, E. A., Schulz, V. P., Cecen, A., Kalidindi, S. R., and Kumbur, E. C.",
+    "Title": "Microstructure and two-phase flow analysis of gas diffusion electrodes of polymer electrolyte fuel cells",
+    "Publication": "19th World Hydrogen Energy Conference",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2012,
+    "Publisher": ""
+  },
+  {
+    "Authors": "EA Wargo, AC Hanna, A Cecen, SR Kalidindi, EC Kumbur",
+    "Title": "A Representative Volume Element Approach for Pore-Scale Modeling of Fuel Cell Materials",
+    "Publication": "ECS Transactions",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2011,
+    "Publisher": ""
+  },
+  {
+    "Authors": "A Cecen, EA Wargo, AC Hanna, DM Turner, SR Kalidindi, EC Kumbur",
+    "Title": "Microstructure Analysis Tools for Quantification of Key Structural Properties of Fuel Cell Materials",
+    "Publication": "ECS Transactions",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2011,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Wargo, E. A., Hanna, A. C., Cecen, A., Kalidindi, S. R., and Kumbur, E. C.",
+    "Title": "A new approach for microstructure characterization of porous fuel cell materials",
+    "Publication": "9th ASME International Conference on Fuel Cell Science, Engineering and Technology, August 7-10",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2011,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Wargo, E. A., Hanna, A. C., Cecen, A., Johnson, C. L., Kalidindi, S. R. and Kumbur, E. C.",
+    "Title": "Focused ion beam tomography of diffusion media for fuel cells",
+    "Publication": "Microscopy & Microanalysis",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2011,
+    "Publisher": ""
+  },  
+  {
+    "Authors": "Wargo, E. A., Hanna, A. C., Cecen,A., Kalidindi, S.R., and Kumbur, E. C.",
+    "Title": "A new approach for quantification of morphology-property linkages In fuel cell materials: a case study for PEM fuel cells",
+    "Publication": "AIChE Annual Meeting",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2011,
+    "Publisher": ""
+  },  
+  {
+    "Authors": "Cecen A., Wargo, E. A., Hanna, A. C., Kalidindi, S. R., and Kumbur, E. C.",
+    "Title": "Determination of Key Structural Parameters of Fuel Cell Porous Media through Microstructure Quantification",
+    "Publication": "9th ASME International Conference on Fuel Cell Science, Engineering and Technology, August 7-10",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2011,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Wargo, E. A., Hanna A. C., Cecen, A., Kalidindi, S. R., and Kumbur, E. C.",
+    "Title": "Microstructure characterization of micro-porous layer in PEM fuel cells",
+    "Publication": "The Third International Forum on Multidisciplinary Education and Research for Energy Science, Ishigaka, Tokyo",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2010,
+    "Publisher": ""
+  }
+]

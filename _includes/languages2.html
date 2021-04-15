@@ -1,0 +1,9 @@
+<!-- LANGUAGES -->
+<div class="box" style="margin-bottom: 0px;">
+<h2><i class="fa fa-language ico"></i> Languages</h2>
+<ul class="list-group" style="margin-top: 4px;margin-bottom: 4px;">
+  {% for language in site.data.resume.languages %}
+  <li class=" list-group-item">{{language.name}}<span class="skill badge pull-right" >{{language.level}}</span></li>
+  {% endfor %}
+</ul>
+</div>

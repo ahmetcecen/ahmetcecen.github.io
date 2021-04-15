@@ -1,0 +1,130 @@
+<div class="box">
+<h2><i class="fa fa-book ico"></i> Community Impact </h2>
+
+<br>
+
+<div class="item-interests"> Scholarly Citations </div>
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<table id="gsc_rsb_st" class="pure-table" style="text-align:center;margin: auto"><tbody><tr><th class="gsc_rsb_sc1"><a href="javascript:void(0)" onclick="gs_md_hist_opn(event);">Citation indices</a></th><th class="gsc_rsb_sth">All</th><th class="gsc_rsb_sth">Since 2011</th></tr><tr><td class="gsc_rsb_sc1"><a href="javascript:void(0)" class="gsc_rsb_f" title="This is the number of citations to all publications. The second column has the &quot;recent&quot; version of this metric which is the number of new citations in the last 5 years to all publications.">Citations</a></td><td class="gsc_rsb_std">167</td><td class="gsc_rsb_std">167</td></tr><tr><td class="gsc_rsb_sc1"><a href="javascript:void(0)" class="gsc_rsb_f" title="h-index is the largest number h such that h publications have at least h citations. The second column has the &quot;recent&quot; version of this metric which is the largest number h such that h publications have at least h new citations in the last 5 years.">h-index</a></td><td class="gsc_rsb_std">6</td><td class="gsc_rsb_std">6</td></tr><tr><td class="gsc_rsb_sc1"><a href="javascript:void(0)" class="gsc_rsb_f" title="i10-index is the number of publications with at least 10 citations. The second column has the &quot;recent&quot; version of this metric which is the number of publications that have received at least 10 new citations in the last 5 years.">i10-index</a></td><td class="gsc_rsb_std">5</td><td class="gsc_rsb_std">5</td></tr></tbody></table>
+
+<br>
+
+<div class="item-interests"> GitHub Contributions & Language Stats </div>
+
+<p  style="text-align:center; margin-bottom: 0px"><b>539 contributions in the last year</b></p>
+
+<div id="pieChart"  style="text-align:center;margin: auto;position:relative;"></div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
+<script src="/js/d3pie.min.js"></script>
+<script>
+var pie = new d3pie("pieChart", {
+	"header": {
+		"title": {
+			"text": "",
+			"fontSize": 16,
+			"font": "open sans"
+		},
+		"subtitle": {
+			"color": "#000000",
+			"fontSize": 12,
+			"font": "open sans"
+		},
+		"location": "pie-center",
+		"titleSubtitlePadding": 9
+	},
+	"footer": {
+		"color": "#999999",
+		"fontSize": 10,
+		"font": "open sans",
+		"location": "bottom-left"
+	},
+	"size": {
+		"canvasWidth": 270,
+		"canvasHeight": 270,
+		"pieInnerRadius": "0%",
+		"pieOuterRadius": "80%"
+	},
+	"data": {
+		"sortOrder": "value-desc",
+		"content": [
+			{
+				"label": "HTML",
+				"value": 376301,
+				"color": "#6162ca"
+			},
+			{
+				"label": "CSS",
+				"value": 663447,
+				"color": "#f64fff"
+			},
+			{
+				"label": "JS",
+				"value": 1002923,
+				"color": "#ff5b5b"
+			},
+			{
+				"label": "Matlab",
+				"value": 573947,
+				"color": "#ff8d31"
+			},
+			{
+				"label": "Py",
+				"value": 501801,
+				"color": "#3cd2c4"
+			},
+			{
+				"label": "C++",
+				"value": 141598,
+				"color": "#60d70e"
+			}
+		]
+	},
+	"labels": {
+		"outer": {
+			"pieDistance": 20
+		},
+		"inner": {
+			"hideWhenLessThanPercentage": 3
+		},
+		"mainLabel": {
+			"fontSize": 14
+		},
+		"percentage": {
+			"color": "#ffffff",
+			"fontSize": 14,
+			"decimalPlaces": 0
+		},
+		"value": {
+			"color": "#adadad",
+			"fontSize": 11
+		},
+		"lines": {
+			"enabled": true
+		},
+		"truncation": {
+			"enabled": true
+		}
+	},
+	"effects": {
+		"load": {
+			"effect": "none"
+		},
+		"pullOutSegmentOnClick": {
+			"effect": "linear",
+			"speed": 400,
+			"size": 8
+		}
+	},
+	"misc": {
+		"gradient": {
+			"enabled": true,
+			"percentage": 100
+		}
+	}
+});
+</script>
+
+
+</div>

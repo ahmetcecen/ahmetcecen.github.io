@@ -1,0 +1,31 @@
+<!-- EDUCATION -->
+<div class="box">
+<h2><i class="fa fa-university ico"></i>Education</h2>
+<ul id="education" class="clearfix">
+{% assign count = 0 %}
+{% for school in site.data.resume.education %}
+  <li onclick="return toggleMe('edu{{ count }}')">
+	<div class="year pull-left">{{school.endDate}} {{school.startDate}}</div>
+	<div class="description pull-right">
+	  <h3>{{school.institution}}</h3>
+	  <p><i class= "fa fa-graduation-cap ico"></i> {{school.studyType}}</p>
+	  <p>{{school.area}}</p> 
+	  {% if school.studyType == 'Bachelors' %}
+	  <p><b>Graduation Project:</b> <i>{{school.thesis}}</i></p> 
+	  {% else if school.studyType == 'Doctorate' %}
+	  <p><b>Thesis:</b> <i>{{school.thesis}}</i></p> 
+	  {% endif %}
+	    <!-- <div id="edu{{ count }}" style="display: none;">
+		<div><b>Subjects</b></div>
+		<ul class="list-group">
+		  {% for course in school.courses %}
+		  <li class="list-group-item">{{ course }}</li>
+		  {% endfor %}
+		</ul>
+		</div>-->
+	</div>
+  </li>
+{% assign count = count | plus:1 %}
+{% endfor %}
+</ul>
+</div>

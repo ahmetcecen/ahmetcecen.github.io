@@ -1,0 +1,15 @@
+<div class="box">
+<h2><i class="fa fa-tasks ico"></i> Secondary Interests</h2>
+{% for interest in site.data.resume.interests %}
+<div class="interests clearfix">
+  <div class="item-interests">
+	  {{interest.name}}
+  </div>
+  <div class="col-sm-offset-1 col-sm-12 clearfix">
+	{% for keyword in interest.keywords %}
+	<span class= "interest badge">{{keyword}}</span>
+	{% endfor %}
+  </div>
+</div>
+{% endfor %}
+</div>
