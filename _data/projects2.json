@@ -16,8 +16,8 @@
 	{"title": "PyMKS",
 	"fronturl": "http://materialsinnovation.github.io/pymks/",
 	"backurl": "https://github.com/materialsinnovation/pymks/",
-	"desc": "Machine learning tool for multiscale materials science.",
-	"logo": "http://materialsinnovation.github.io/pymks/_static/pymks_logo.png",
+	"desc": "Machine learning tool for multiscale materials.",
+	"logo": "https://pymks.readthedocs.io/en/stable/_static/pymks_logo.svg",
 	"keywords": ["Python", "Batch"] },
 	
 	{"title": "Interactive Spatial Statistics Demo",

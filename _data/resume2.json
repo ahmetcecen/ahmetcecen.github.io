@@ -25,14 +25,14 @@
     }]
   },
   "work": [{
-    "company": "ExxonMobil",
+    "company": "ExxonMobil Technology and Engineering Company (EMTEC)",
     "position": "Advanced Research Data Scientist",
     "website": "https://corporate.exxonmobil.com/",
     "startDate": "09/2017",
     "endDate": "Present",
-    "summary": "Data Scientist role working on Basic Chemicals and Polymers related problems.",
+    "summary": "Data Scientist role working on image processing and data infrastructure related problems.",
     "highlights": [
-      "Data Scientist role working on Basic Chemicals and Polymers related problems."
+      "Data Scientist role working on image processing and data infrastructure related problems."
     ]
   },
   {
@@ -43,7 +43,7 @@
     "endDate": "08/2017",
     "summary": "Primary research role towards a PhD degree, under the advisement of Dr. Surya R. Kalidindi",
     "highlights": [
-	  "Design, implement and publish efficient machine learning and informatics tools for processing, statistical analysis and visualization of 2D/3D/4D image data."
+	  "Design, implement and publish machine learning and informatics tools for statistical analysis and visualization of 2D to 4D data."
     ]
   }
   ],
@@ -98,8 +98,8 @@
     ],
     "keywords": [
       "Plot.ly",
-      "D3.js",
-      "Three.js"
+      "Shiny",
+      "Pure CSS"
     ]
   },
   {
@@ -110,16 +110,16 @@
 	  "Lab/Workflow Automation"
     ],
     "keywords": [
-      "Batch",
+      "Azure",
       "Docker",
-	    "Azure"
+	  "Powershell"
     ]
   },  
   {
     "name": "Database & Integration",
 	"topics": [
       "API Engineering",
-	    "Schema/Integration Design"
+	  "Schema/Integration Design"
     ],
     "keywords": [
       "HDF5",
