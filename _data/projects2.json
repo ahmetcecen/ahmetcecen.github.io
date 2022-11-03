@@ -14,7 +14,7 @@
 	"keywords": ""},
 	
 	{"title": "PyMKS",
-	"fronturl": "http://materialsinnovation.github.io/pymks/",
+	"fronturl": "https://pymks.readthedocs.io/en/stable/rst/README.html",
 	"backurl": "https://github.com/materialsinnovation/pymks/",
 	"desc": "Machine learning tool for multiscale materials.",
 	"logo": "https://pymks.readthedocs.io/en/stable/_static/pymks_logo.svg",
