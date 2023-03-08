@@ -1,0 +1,195 @@
+{
+"basics": {
+  "name": "Ahmet Cecen",
+  "label": "Research Data Scientist",
+  "tags": [
+    "PhD",
+    "EB1"
+  ],
+  "picture": "https://avatars1.githubusercontent.com/u/7231251?v=3&s=460",
+  "email": "ahmetcecen@gmail.com",
+  "phone": "(267) 586-4505",
+  "website": "http://ahmetcecen.github.io/",
+  "summary": "Full-Stack **Research Data Scientist** with **13 years of experience** personally architecting, programming and deploying:\n- custom tailored machine learning and image processing algorithms, customer facing apps.\n- cloud data, network, security and compute infrastructure to deploy scalable products.",
+  "location": {
+    "address": "ExxonMobil Technology and Engineering Company",
+    "postalCode": "TX 77007",
+    "city": "Baytown",
+    "countryCode": "US",
+    "region": "Texas"
+  },
+  "profiles": [
+    {
+    "network": "LinkedIn",
+    "username": "Ahmet Cecen",
+    "url": "https://www.linkedin.com/in/ahmet-cecen-1693b419"}
+  ]
+},
+"work": [
+  {
+  "company": "ExxonMobil",
+  "position": "Advanced Research Data Scientist",
+  "website": "https://corporate.exxonmobil.com/",
+  "startDate": "09/2017",
+  "endDate": "Present",
+  "summary": "Data Scientist role working on Basic Chemicals and Polymers related problems. Details redacted due to NDA.",
+  "highlights": [
+    "Redacted"
+  ]
+},{
+  "company": "MINED Group - Georgia Tech",
+  "position": "Graduate Research Assistant",
+  "website": "https://matin.gatech.edu/",
+  "startDate": "03/2010",
+  "endDate": "08/2017",
+  "summary": "Primary research role towards a PhD degree, under the advisement of Dr. Surya R. Kalidindi",
+  "highlights": [
+  "Develop and implement prediction/decision support models using image/signal processing tools, statistical analysis and machine learning paradigms.", 
+  "Design, implement and publish efficient algorithms for image processing, statistical analysis and visualization of 2D/3D/4D spatio-temporal data.",
+  "Design, adapt or opinionate online tools to facilitate the automation, accesibilty and exposure of research data and findings."
+  ]
+}
+],
+"education": [
+{
+  "institution": "Georgia Institute of Technology",
+  "area": "Computational Science and Engineering",
+  "studyType": "Doctorate",
+  "startDate": "08/2013",
+  "endDate": "08/2017",
+  "thesis": "Calculation, Utilization, and Inference of Spatial Statistics in Practical Spatio-Temporal Data"
+},
+{
+  "institution": "Drexel University",
+  "area": "Mechanical Engineering and Mechanics",
+  "studyType": "Bachelors",
+  "startDate": "09/2009",
+  "endDate": "08/2013",
+  "thesis": "Automated Electrochemical Flow Capacitor Test Station"
+}],
+"awards": [{
+  "title": "Materials Science and Engineering Data Challenge - Runner Up",
+  "date": "05/2016",
+  "awarder": "Air Force Research Lab in partnership with NIST and NSF",
+  "summary": "Awarded for novel use of accessible digital data to advance Materials Science and Engineering knowledge to accelerate the transition to industrial applications."
+}],
+"skills": [{
+"name": "Machine Learning & Data Analysis",
+"topics": [
+  "Image/Signal Processing",
+  "Convolutional Neural Networks",
+  "Natural Language Processing"
+],
+"keywords": [
+  "MATLAB",
+  "R",
+  "Python"
+]
+},
+{
+"name": "Web Development",
+"topics": [
+  "Front End Design",
+  "Interactive Visualization"
+],
+"keywords": [
+  "Plot.ly",
+  "Shiny",
+  "Pure CSS"
+]
+},
+{
+"name": "Deployment & Automation",
+"topics": [
+"Software Prototyping",
+"Hardware Prototyping",
+"Lab/Workflow Automation"
+],
+"keywords": [
+  "Azure",
+  "Docker",
+"Powershell"
+]
+},  
+{
+"name": "Database & Integration",
+"topics": [
+  "API Engineering",
+"Schema/Integration Design"
+],
+"keywords": [
+  "HDF5",
+  "SQL",
+  "MongoDB"
+]
+}],
+"skills": [{
+  "name": "Machine Learning & Data Analysis",
+  "keywords": [
+    "MATLAB",
+    "R",
+    "Python"
+  ],
+"level": [
+    "100",
+    "80",
+    "60"
+  ]
+},
+{
+  "name": "Cloud Engineering",
+  "keywords": [
+    "JS",
+    "Jekyll",
+    "Python"
+  ],
+"level": [
+    "80",
+    "100",
+    "40"
+  ]
+},
+{
+  "name": "Deployment & Automation",
+  "keywords": [
+    "Batch",
+    "Docker",
+    "Azure"
+  ],
+"level": [
+    "80",
+    "60",
+    "60"
+  ]
+},  
+{
+  "name": "Database Systems",
+  "keywords": [
+    "SQL",
+    "Mongo",
+    "HDF5"
+  ],
+"level": [
+    "75",
+    "75",
+    "75"
+  ]
+}
+],
+"languages": [{
+  "name": "English",
+  "level": "Active | Fluent (30+)"
+},
+{
+  "name": "Turkish",
+  "level": "Active | Fluent (30+)"
+},
+{
+  "name": "French",
+  "level": "Dormant | Intermediate (10)"
+},
+{
+  "name": "Japanese",
+  "level": "Dormant | Beginner (2)"
+}]
+}

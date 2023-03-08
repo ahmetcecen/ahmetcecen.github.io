@@ -11,7 +11,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
-	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="/css/print.css">
 	
 	<script type="text/javascript">
 		function toggleMe(a){
@@ -51,7 +51,6 @@
       rel="stylesheet">
 	   
   </head>
-  <body onload="window.print()">
     
 	<div class="container" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
 	  
@@ -61,9 +60,16 @@
 	  
       <div class="row">
        
-		<div class="col-xs-6"  style="margin-bottom:-20px;" >
+		<div class="col-xs-7"  style="margin-bottom:3px;" >
 		
 		  {% include skills2.html %}
+
+          	  
+		</div>
+		
+		<div class="col-xs-5"  style="margin-bottom:10px;" >
+		
+		  {% include education2.html %}
 
           	  
 		</div>
@@ -75,54 +81,34 @@
 	
 	<div class="row">
        
-		<div class="col-xs-12 col-sm-7">
 
-		  {% include workexperience3.html %}
-		  	  
-		</div>
-		
-		<div class="col-xs-12 col-sm-5">
-		
-		  {% include projects2.html %}
-		  
+		<div class="col-xs-4 col-sm-4">
 
-		 
-		</div>
-		
-		
-	</div>
-	
-	<hr style="border: 0; height: 1px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc); page-break-after: always;">
-	
-	<br>
-
-	
-	<div class="row">
-       
-		<div class="col-xs-12 col-sm-7">
-
-		  {% include education.html %}
-		  
-		  {% include awards.html %}
+		  {% include workexperience4.html %}
 		  
 		  {% include publications2.html %}
 		  	  
 		</div>
 		
-		<div class="col-xs-12 col-sm-5">
+		<div class="col-xs-4 col-sm-4">
 		
-		  {% include interests2.html %}
-		  
-		  {% include languages2.html %}
-		  
-		  {% include community2.html %}
+		{% include community3.html %}
 		
-
-		 
+		  {% include awards2.html %}		
+		  
 		</div>
 		
+		<div class="col-xs-4 col-sm-4">
+		
+		  {% include projects3.html %}
+		  
+		</div>
+			
 		
 	</div>
+	
+	<hr style="border: 0; height: 1px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc); page-break-after: always;">
+
 		
   </body>
 </html>
