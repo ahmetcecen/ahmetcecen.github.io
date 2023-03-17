@@ -10,7 +10,7 @@
 	"fronturl": "http://www.mathworks.com/matlabcentral/fileexchange/34918-multivariate-polynomial-regression",
 	"backurl": "https://github.com/ahmetcecen/MultiPolyRegress-MatlabCentral",
 	"desc": "Polynomial regression with cross-validation on multidimensional data.",
-	"logo": "http://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/34918/versions/6/screenshot.jpg",
+	"logo": "https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/34918/versions/6/screenshot.jpg",
 	"keywords": ""},
 	
 	{"title": "PyMKS",
@@ -22,14 +22,14 @@
 	
 	{"title": "Interactive Spatial Statistics Demo",
 	"fronturl": "https://ahmetcecen.shinyapps.io/MatInfDemo/",
-	"desc": "Online demo written in R using Shiny framework. ",
-	"logo": "http://ahmetcecen.github.io/images/StatsDemo.png",
-	"keywords": ["R", "HTML/CSS"] },
+	"desc": "Simple pattern learning demo written in R using Shiny framework. ",
+	"logo": "https://ahmetcecen.github.io/images/StatsDemo.png",
+	"keywords": ["R", "HTML/CSS", "Shiny"] },
 	
 	{"title": "MATLAB Spatial Correlation Toolbox",
 	"fronturl": "http://www.mathworks.com/matlabcentral/fileexchange/52601-image-correlation-and-convolution-for-large-data",
 	"backurl": "https://github.com/ahmetcecen/MATLAB-Spatial-Correlation-Toolbox",
 	"desc": "Computes 3D spatial statistics of gigantic datasets.",
-	"logo": "http://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/52601/versions/3/screenshot.png",
+	"logo": "https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/52601/versions/3/screenshot.png",
 	"keywords": ""}
 ]

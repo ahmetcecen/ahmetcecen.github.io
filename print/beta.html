@@ -12,36 +12,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 	<link rel="stylesheet" href="/css/print.css">
-	
-	<script type="text/javascript">
-		function toggleMe(a){
-		var e=document.getElementById(a);
-		if(!e)return true;
-		if(e.style.display=="none"){
-		e.style.display="block"
-		}
-		else{
-		e.style.display="none"
-		}
-		return true;
-		}
-		
-		function toggleMeClass(a){
-		var e=document.getElementsByClassName(a);
-		if(!e)return true;
-		for (i = 0; i < e.length; i++) {
-			if(e[i].style.display=="none"){
-			e[i].style.display="block"
-			}
-			else{
-			e[i].style.display="none"
-			}
-		}
-		return true;
-		}
-	</script>
-	
-	    <!-- JQUERY -->
+	<!-- JQUERY -->
     <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
     <!-- BOOTSTRAP -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -59,21 +30,21 @@
 	  <hr style="height: 1px; margin-bottom:10px; margin-top:0px ; border-color: #000000">
 	  
       <div class="row">
+
+		<div class="col-xs-5"  style="margin-bottom:10px;" >
+		
+			{% include workexperience5.html %}
+  
+				  
+		</div>
        
 		<div class="col-xs-7"  style="margin-bottom:3px;" >
 		
-		  {% include skills2.html %}
+		  {% include skills3.html %}
 
           	  
 		</div>
-		
-		<div class="col-xs-5"  style="margin-bottom:10px;" >
-		
-		  {% include education2.html %}
-
-          	  
-		</div>
-		
+			
 		
 	</div>
 	
@@ -84,7 +55,7 @@
 
 		<div class="col-xs-4 col-sm-4">
 
-		  {% include workexperience4.html %}
+		  {% include education3.html %}
 		  
 		  {% include publications2.html %}
 		  	  

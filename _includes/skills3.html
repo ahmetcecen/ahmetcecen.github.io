@@ -1,0 +1,150 @@
+<!-- SKILLS -->
+
+<style>
+
+span.keyworditem{
+    background-color: rgba(156, 156, 156, 0.47) !important;
+    padding: 2px;
+	padding-left: 3px;
+    margin: 2px;
+	margin-bottom: 5px;
+    color: #000 !important;
+	text-align: center;
+	font-weight: bold;
+}
+
+p.keywordheader{
+	margin-bottom: 5px;
+}
+
+.topic-item{
+	padding: 2px 15px !important;
+	color: #000 !important;
+}
+
+.topic-item:after{
+  	top: 6px !important;
+}
+
+.progresscustom {
+	height: 10px;
+	padding: 5px;
+	width: 10px;
+	display: inline-block;
+	margin-left: 0px;
+	margin-top: 6px;
+	height: 100%;
+}
+
+.red {
+	background-color: #a71111  !important ;
+}
+
+.gray {
+	background-color: rgb(202, 176, 176) !important  ;
+}
+
+</style>
+
+
+<!--div class="box" onclick="return toggleMeClass('skilldetails');"-->
+<div class="box">
+<h2><i class="fa fa-tasks ico"></i> Skills </h2>
+
+<div class="col-xs-7 skills clearfix">
+	{% assign countx = 0 %}
+	{% for stack in site.data.unify.stacks limit:1 %}
+	<div class="col-xs-12 skills clearfix">
+
+		<div class="item-skills">
+			{{stack.subtopic}}
+		</div>
+	
+		<div class="col-xs-8 skills clearfix skilldetails"> <!--style="display: none;"-->
+		
+			<ul class="list-group" style= "margin-bottom: 7px">
+			{% assign county = 0 %}
+			{% for keyword in stack.subject %}
+			
+						
+						<li class="topic-item list-group-item"> {{keyword}} </li>
+						
+			
+			{% assign county = county | plus:1 %}
+			{% endfor %}
+			</ul>
+
+		</div>
+
+		<div class="col-xs-4 skills clearfix skilldetails" style="
+		margin-bottom: 5px;"> <!--style="display: none;"-->
+		
+			{% assign county = 0 %}
+			{% for level in stack.proficiency %}
+			<div class="clearfix skilldetails" >
+				{% for i in (1..5) %}
+					{% if i <= level %}
+						<div class="progresscustom red"></div>
+					{% else %}
+						<div class="progresscustom gray"></div>
+					{% endif %}	
+				{% endfor %}
+			</div>
+			{% assign county = county | plus:1 %}
+			{% endfor %}
+
+		</div>
+		
+	</div>
+	{% assign countx = countx | plus:1 %}
+	{% endfor %}
+</div>
+
+<div class="col-xs-5 skills clearfix">
+{% assign countx = 0 %}
+{% for stack in site.data.unify.stacks offset:1 limit:2 %}
+	<div class="col-xs-12 skills clearfix">
+		<div class="item-skills">
+			{{stack.subtopic}}
+		</div>
+	
+		<div class="col-xs-6 skills clearfix skilldetails"> <!--style="display: none;"-->
+		
+			<ul class="list-group" style= "margin-bottom: 7px">
+			{% assign county = 0 %}
+			{% for keyword in stack.subject %}
+			
+						
+						<li class="topic-item list-group-item"> {{keyword}} </li>
+						
+			
+			{% assign county = county | plus:1 %}
+			{% endfor %}
+			</ul>
+
+		</div>
+
+		<div class="col-xs-6 skills clearfix skilldetails" style="
+		margin-bottom: 5px;"> <!--style="display: none;"-->
+		
+			{% assign county = 0 %}
+			{% for level in stack.proficiency %}
+			<div class="clearfix skilldetails" >
+				{% for i in (1..5) %}
+					{% if i <= level %}
+						<div class="progresscustom red"></div>
+					{% else %}
+						<div class="progresscustom gray"></div>
+					{% endif %}	
+				{% endfor %}
+			</div>
+			{% assign county = county | plus:1 %}
+			{% endfor %}
+
+		</div>	
+	</div>
+{% assign countx = countx | plus:1 %}
+{% endfor %}
+</div>
+
+</div>

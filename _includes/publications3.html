@@ -1,0 +1,21 @@
+<!-- PUBLICATIONS -->
+<div class="box" style="margin-top: 15px;">
+<h2 style = "font-size: 1.47em;"><i class="fa fa-file-lines ico"></i> Selected Publications</h2>
+
+<!--{% assign count = 0 %}
+{% for article in site.data.selected limit: 1%}
+<div class="publication panel panel-default" style="margin-top: 10px;">
+   <i>{{article.Title}}</i><b>, {{article.Publication}}</b> 
+</div>
+{% assign count = count | plus:1 %}
+{% endfor %}-->
+
+{% assign count = 0 %}
+{% for article in site.data.selected limit: 4 offset:0 %}
+<div class="publication panel panel-default" style="margin-top: 6px;">
+   <i>{{article.Title}}</i><b>, {{article.Publication}} - {{article.Year}} </b> 
+</div>
+{% assign count = count | plus:1 %}
+{% endfor %}
+
+</div>

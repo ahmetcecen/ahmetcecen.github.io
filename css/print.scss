@@ -17,6 +17,8 @@ $section-heading-color: #a71111 ;
 @-o-viewport        { width: device-width; }
 @viewport           { width: device-width; }
 
+
+
 body{
   font-family: 'Open Sans', Arial, Tahoma;
   font-weight: 400;
@@ -428,18 +430,21 @@ a[href]:after {
   border: none;
   margin: 0;
   padding: 5px 15px;
-  color: $section-heading-color!important
 }
 .list-group-item:after{
-  content: '';
+  font-family:FontAwesome;
+  content: '\f121';
   position: absolute;
   top: 8px;
   right: 0;
   left: -1px;
   height: 0;
   width: 0;
-  border: solid transparent;
-  border-right-color: #999;
-  border-width: 4px;
   pointer-events: none;
  }
+
+.fa-red:before { color:#a71111 !important; }
+
+.fa-black:before { color:#000000 !important; }
+
+.fa-grey:before { color:rgb(202, 176, 176) !important; }
