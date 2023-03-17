@@ -8,7 +8,7 @@
 
 {% for project in site.data.projects2 limit:1 %}
 
-<div class="" style="float:left;width:100%; max-height:146px; margin: 6px 0px 6px 0px ; box-shadow: 2px 2px 0.5px 0.5px #000000; border: 1px solid #afafaf;">
+<div class="" style="float:left;width:100%; max-height:146px; margin: 7px 0px 6px 0px ; box-shadow: 2px 2px 0.5px 0.5px #000000; border: 1px solid #afafaf;">
 
 <div class="" style="float:left; margin: 5px; width:70px; height:70px;background: #FFF url('{{ project.logo }}') !important;background-size: 70px !important">
 </div>
@@ -38,17 +38,13 @@
 
 <p style="margin:7px;">
 {% for keyword in project.keywords limit:3 %}
-	<span class="keyworditem">
-	{{keyword}}
-	</span>
+	<span class="keyworditem">{{keyword}}</span>
 {% endfor %}
 </p>
 
 <p style="margin:7px;margin-top:10px;">
 {% for keyword in project.keywords offset:3 limit:3 %}
-	<span class="keyworditem">
-	{{keyword}}
-	</span>
+	<span class="keyworditem">{{keyword}}</span>
 {% endfor %}
 </p>
 
@@ -83,17 +79,13 @@
 
 <p style="margin:7px;">
 {% for keyword in project.keywords limit:3 %}
-	<span class="keyworditem">
-	{{keyword}}
-	</span>
+	<span class="keyworditem">{{keyword}}</span>
 {% endfor %}
 </p>
 
 <p style="margin:7px;margin-top:10px;">
 {% for keyword in project.keywords offset:3 limit:3 %}
-	<span class="keyworditem">
-	{{keyword}}
-	</span>
+	<span class="keyworditem">{{keyword}}</span>
 {% endfor %}
 </p>
 
@@ -124,9 +116,7 @@
 
 <p style="margin:7px;">
 {% for keyword in project.keywords limit:3 %}
-	<span class="keyworditem">
-	{{keyword}}
-	</span>
+	<span class="keyworditem">{{keyword}}</span>
 {% endfor %}
 </p>
 
