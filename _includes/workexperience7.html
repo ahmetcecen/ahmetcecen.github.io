@@ -1,0 +1,25 @@
+<!-- WORK EXPERIENCE -->
+<div class="box">
+	<h2><i class="fa fa-building ico"></i> Work Experience</h2>
+	<ul id="education" class="clearfix">
+		{% assign count = 0 %}
+		{% for workjob in site.data.unify.work limit:1 %}
+		<li onclick="return toggleMe('job{{ count }}')">
+			<div class="description">
+
+				<div><span ><b style="color: #a71111 !important; font-size:1.125em;">{{workjob.position}}</b> </span> <span style="position:absolute; right:2px; font-size:1.125em;"><b>{{workjob.startDate}} - {{workjob.endDate}}</b></span></div>
+
+				<div class="profession" style="font-size:1.1em;margin-top: 2px; margin-bottom: 2px;"><a	href="{{workjob.website}}">{{workjob.company}}</a> <span style="position:absolute; right:2px;">{{workjob.group}}</span></div>
+
+				<ul class="fa-ul" style="--fa-li-margin: 1.75em;">
+					{% for highlight in workjob.infrahighlights %}
+						<li style="padding-top: 2px;"><span class="fa-li" style="color: #a71111 !important;"><i class="fa-solid fa-code-commit fa-red" style="color: #a71111 !important;"></i></span>{{ highlight }}</li>
+					{% endfor %}
+				</ul>
+
+			</div>
+		</li>
+		{% assign count = count | plus:1 %}
+		{% endfor %}
+	</ul>
+</div>
