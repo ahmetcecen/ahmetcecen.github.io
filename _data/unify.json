@@ -51,6 +51,13 @@
     "<b>Steamrolled</b> onboarding of an enterprise wide data science platform. Ran user trials, hosted tutorials with integrations and inside use cases, negotiated license terms and pricing, deployed and maintained supporting cloud infrastructure and security configurations.",
     "<b>Led</b> digital transformation projects involving peers, reporting teams of developers and globally dispersed diverse stakeholders. <b>Interfaced</b> business organizations with modeling and IT departments to drive timely and satisfactory completion of deliverables.",
     "<b>Developed and published</b> internal documentation and training materials in order to facilitate seamless hand-off of foundational work, with a goal to ensure sustainable long term operation by commoditized support/ticket structures."
+  ],
+  "aihighlights": [
+    "<b>Engineered and deployed </b> data science and image analysis applications, working directly with customers and end-users in their preference of scripting languages. Maintained optimal level of formalism that is fit for the purpose and scope of the business need.",
+    "<b>Took ownership</b> in an attrition period and <b>greatly cross-skilled</b> to architect, deploy and maintain an enterprise grade cloud database, integration and scalable compute infrastructure on Azure - enabling modelers, devs and data scientists across the corporation.",
+	"Developed, deployed and maintained <b>fine-tuned large language models (LLMs)</b> and peripheral cloud architecture for internal search, documentation/report summarization and knowledge/expertise management apllications.",
+    "<b>Steamrolled</b> onboarding of enterprise wide data science platforms. Ran user trials, hosted tutorials with integrations and inside use cases, negotiated license terms and pricing, deployed and maintained supporting cloud infrastructure and security configurations.",
+    "<b>Led</b> digital transformation projects involving peers, reporting teams of developers and globally dispersed diverse stakeholders. <b>Interfaced</b> business organizations with modeling and IT departments to drive timely and satisfactory completion of deliverables."
   ]
 },{
   "company": "MINED Group - Georgia Tech",
@@ -127,7 +134,28 @@
     "proficiency": [5,4,5,4,3]
   }
 ],
-
+"stacks2":[
+  {
+    "subtopic": "Expertise",
+    "subject":["Data Science and Informatics","Computer Vision and Machine Learning","Natural Language Processing","Enterprise Cloud Infrastructure","Solution Architecture","Data Pipelining and Platforms"],
+    "proficiency": [5,5,3,4,4,4,5,4]
+  },
+  {
+    "subtopic": "Scripting",
+    "subject":["Python","R","MATLAB","JS/CSS/SVG","Lua"],
+    "proficiency": [5,5,5,4,4]
+  },
+  {
+    "subtopic": "Cloud",
+    "subject":["Azure","Databricks","Terraform","Shell", "GH Actions"],
+    "proficiency": [4,3,4,4,3]
+  },
+  {
+    "subtopic": "Databases",
+    "subject":["MSSQL","MongoDB","HDF5/HSDS","Graph","Snowflake"],
+    "proficiency": [5,4,5,4,3]
+  }
+],
 "languages": [{
   "name": "English",
   "level": "Active | Fluent (30+)"
